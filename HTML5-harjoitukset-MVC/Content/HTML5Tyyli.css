@@ -3,13 +3,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #FFD9CE;
-    background-image: url("tausta7.jpg");
+    background-image: url('../Images/tausta7.jpg');
     background-size: 200px;
     background-attachment: fixed;
     background-repeat: repeat-y;
     margin: 0;
     padding: 0;
-}
+    }
 
 h1, h2, h3 {
     font-family: 'Indie Flower', cursive;
@@ -81,4 +81,8 @@ padding-asetuksen esim: padding: 13px 13px 13px 13px;*/
     text-indent: 3em;
     text-align-last: center;
     text-transform: capitalize;
+}
+
+.jumbotron {
+    margin-top:150px;
 }

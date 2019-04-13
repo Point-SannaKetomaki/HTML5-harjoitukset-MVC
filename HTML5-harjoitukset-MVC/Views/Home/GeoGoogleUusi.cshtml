@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "GeoGoogleUusi";
+}
+
+@section head {
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+}
+
+@section scripts {
+     <script src="~/Scripts/GeoGoogleUusi.js"></script>
+    
+}
+
+<div id="wrap">
+    <h2>Löydä sijaintisi</h2>
+
+    <p id="demo">Paina nappia saadaksesi kartalle sijaintisi</p>
+    <button onclick="getLocation()">Löydä sijaintisi</button>
+    <p>&nbsp;</p>
+    <div id="mapholder"></div>
+
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0_e470wVIxPTNFIfD8h0sKSZO3-bMXqk&callback=showPosition" async defer></script>
+    
+
+</div>

@@ -13,6 +13,56 @@ namespace HTML5_harjoitukset_MVC.Controllers
             return View();
         }
 
+        public ActionResult Palstat()
+        {
+            return View();
+        }
+
+        public ActionResult Lomake()
+        {
+            return View();
+        }
+
+        public ActionResult DOM()
+        {
+            return View();
+        }
+
+        public ActionResult EventTrad()
+        {
+            return View();
+        }
+
+        public ActionResult EventMod()
+        {
+            return View();
+        }
+
+        public ActionResult JQuery()
+        {
+            return View();
+        }
+
+        public ActionResult Geo()
+        {
+            return View();
+        }
+
+        public ActionResult GeoGoogle()
+        {
+            return View();
+        }
+
+        public ActionResult GeoW3Sc()
+        {
+            return View();
+        }
+
+        public ActionResult GeoGoogleUusi()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

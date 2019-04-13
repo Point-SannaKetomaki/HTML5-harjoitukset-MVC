@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "EventTrad";
+}
+
+
+@section scripts{
+
+    <script src="~/Scripts/ext2.js"></script>
+}
+
+
+<div id="wrap">
+    <body onload="init();">
+
+        <h1>Tapahtumankäsittelyä - Event handling</h1>
+
+        <p onclick="alert('Olen skripti inline HTML-attribuutin arvona');">Inline tapahtumankäsittely, napsauta minua!</p>
+        <p onclick="napsautus()">Ulkoinen tiedosto ja tapahtumankäsittely, napsauta minua!</p>
+        <p id="osa2">Ulkoinen tiedosto ja tapahtumankäsittely - osa 2, napsauta minua!</p>
+        <p id="osa3">Ulkoinen tiedosto ja tapahtumankäsittely -osa 3, napsauta minua!</p>
+
+        <script src="~/Scripts/ext.js"></script>
+
+    </body>
+</div>
